@@ -36,7 +36,7 @@ namespace RajongoiKlub
                 return;
             }
 
-            if(osszeg == 0)
+            if(osszeg == 0) 
             {
                 MessageBox.Show("Adjon meg egy nagyobb összeget!", "Figyelmeztetés", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 numericUpDown1.Focus();
